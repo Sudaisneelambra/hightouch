@@ -21,7 +21,7 @@ export class ServicesComponent {
       place: 'Wandoor'
   },
   {
-      name: 'albin jhon',
+      name: 'albin john',
       review: '“Strong, sleek, and beautifully crafted work.”',
       starCount: 4,
       place: 'edavanna'
@@ -48,43 +48,43 @@ export class ServicesComponent {
 
   services = [
     {
-      serviceName:'curtains',
+      serviceName:'Curtains',
       description:'Enhance your space with stylish, custom curtains that offer privacy, elegance, and light control.',
       img:'/assets/images/homeimage/curtainhome.jpg',
       colorCode:'#68d585'
     },
     {
-      serviceName:'kitchen',
+      serviceName:'Kitchen',
       description:'We design stylish, functional aluminium kitchens with smart storage, durability, and modern finishes.',
       img:'/assets/images/kitchen/kitchen13.jpeg',
       colorCode:'#473bf0'
     },
     {
-      serviceName:'showcase',
+      serviceName:'Showcase',
       description:'Elegant showcases designed for display and storage, adding style to any interior space.',
       img:'/assets/images/homeimage/showcasehome.jpg',
       colorCode:'#f64b4b'
     },
     {
-      serviceName:'room',
+      serviceName:'Room',
       description:'We create modern, functional room interiors tailored for comfort, style, and smart living.',
       img:'/assets/images/room/room9.jpeg',
       colorCode:'#f7c948 '
     },
     {
-      serviceName:'tvunits',
+      serviceName:'Tv Units',
       description:'Stylish TV units built for durability, smart storage, and a sleek modern look.',
       img:'/assets/images/tvunits/tvunit6.jpeg',
       colorCode:'#38bdf8 '
     },
     {
-      serviceName:'washbasin',
+      serviceName:'Wash basin',
       description:'Design a stylish washbasin space with ease. Create a functional, elegant layout that suits your style and practical needs.',
       img:'/assets/images/washbasin/washbasin11.jpeg',
       colorCode:'#c084fc'
     },
     {
-      serviceName:'windows',
+      serviceName:'Windows',
       description:'Durable aluminium windows designed for style, ventilation, security, and long-lasting performance in every space.',
       img:'/assets/images/homeimage/windowhome.jpg',
       colorCode:'#10b981'
@@ -93,7 +93,8 @@ export class ServicesComponent {
 
 
   gotToService(serviceName:any){
-    this.router.navigate([`products/${serviceName}`])
+    const routeName = serviceName.toLowerCase().replace(/\s+/g, '');
+    this.router.navigate([`products/${routeName}`])
   }
 
 }
