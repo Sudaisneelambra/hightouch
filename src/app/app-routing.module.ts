@@ -10,16 +10,17 @@ const routes: Routes = [
     component:HomeComponent
   },
   {
+    path:'',
+    redirectTo:'/home',
+    pathMatch:'full'
+  },
+  {
     path:'products/:name',
     component:ProductComponent
   },
   { path: '404', component: Notfound },
   { path: '**', redirectTo: '/404' },
-  {
-    path:'',
-    redirectTo:'/home',
-    pathMatch:'full'
-  }
+ 
 ];
 
 @NgModule({
