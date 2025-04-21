@@ -15,5 +15,11 @@ export class FooterComponent {
     const contactScreen = document.getElementById('contact')
     contactScreen?.scrollIntoView({behavior:'smooth'})
   }
+  
+  whatsappNumber = '919745465530';
+  openWhatsApp(){
+    const whatsappUrl = `https://wa.me/${this.whatsappNumber}`;
+    window.open(whatsappUrl, '_blank');
+  }
 
 }

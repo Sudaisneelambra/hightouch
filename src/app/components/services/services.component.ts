@@ -66,7 +66,7 @@ export class ServicesComponent {
       colorCode:'#f64b4b'
     },
     {
-      serviceName:'Room',
+      serviceName:'Bed Room',
       description:'We create modern, functional room interiors tailored for comfort, style, and smart living.',
       img:'/assets/images/room/room9.jpeg',
       colorCode:'#f7c948 '

@@ -4,7 +4,7 @@
     </div>
     <div class="name-company ">
         <div class=" rounded-full mr-[4px]">
-            <img src="/assets/images/companylogo.png" alt="logo" class="w-[60px] h-[60px]">
+            <img src="/assets/images/companylogo.png" alt="logo" class="w-[60px] h-[60px]" (click)="goToHomePage()">
         </div>
     </div>
     <ul class="uls flex ">
@@ -17,7 +17,7 @@
         <!-- <div class="!py-[6px] !px-3 rounded-md text-[17px] font-[700] bg-[#473bf0] text-white" >
             <app-button></app-button>
         </div> -->
-        <h1 class="font-black" style="font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', serif;">High Touch</h1>
+        <h1 class="font-black" style="font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', serif;" (click)="goToHomePage()">High Touch</h1>
     </div>
     <div class="side-menu absolute" [ngClass]="{'side-menu-open':openMenu}">
         <h1 class="h-[40px] w-[100%]  flex justify-end pr-2 items-center mt-1"><img src="/assets/images/close.png" alt="" class="h-[60%] pt-2 pr-2" (click)="close()"></h1>

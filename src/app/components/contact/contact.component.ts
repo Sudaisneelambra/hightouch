@@ -12,7 +12,7 @@ import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from "@angula
 export class ContactComponent {
   contactForm: FormGroup;
   submitted = false;
-  whatsappNumber = '919747491562'; // Add country code (e.g., 91 for India)
+  whatsappNumber = '919745465530'; // Add country code (e.g., 91 for India)
 
   constructor(private formBuilder: FormBuilder) {
     this.contactForm = this.formBuilder.group({
