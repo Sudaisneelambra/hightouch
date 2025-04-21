@@ -10,8 +10,8 @@
 />
 
   </div>
-  <div class="main-iterating bg-[#f4f7fa] w-[90%] h-[160px] py-2 px-4 gap-3 flex items-center justify-center overflow-x-scroll" #scrollContainer [ngClass]="{ 'justify-start': isOverflowing, 'justify-center': !isOverflowing }">
-    <div class="single-one min-w-[140px] w-[140px] bg-[pink] h-[90%] overflow-hidden rounded-lg flex justify-center items-center" *ngFor="let image of images, let index = index" (click)="selectImage(index)" [ngClass]="{'scale-150': selectedIndex === index}">
+  <div class="main-iterating  w-[90%] h-[180px] py-2 px-4 gap-4 flex items-center justify-center overflow-x-scroll" #scrollContainer [ngClass]="{ 'justify-start': isOverflowing, 'justify-center': !isOverflowing }">
+    <div class="single-one min-w-[140px] w-[140px] h-[80%] overflow-hidden rounded-lg flex justify-center items-center" *ngFor="let image of images, let index = index" (click)="selectImage(index)" [ngClass]="{'scale-150': selectedIndex === index}">
       <img src="{{image.url}}" alt="" class="w-[100%] h-[100%]">
     </div>
   </div>
