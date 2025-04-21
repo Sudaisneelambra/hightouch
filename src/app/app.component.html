@@ -1,0 +1,6 @@
+<div class="w-full fixed z-50" *ngIf="showNavbar">
+    <app-navbar></app-navbar>
+</div>
+<div ngClass="{'pt-[60px]': showNavbar}">
+    <router-outlet></router-outlet>
+</div>

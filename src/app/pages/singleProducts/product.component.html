@@ -1,0 +1,20 @@
+<div class="gallery-container flex flex-col items-center">
+  <h1 class="w-[90%] py-[10px] text-[20px] font-[800]">{{productName | uppercase}}</h1>
+  <div class="main-image-container"  #imageContainer
+  >
+  <img 
+  #mainImage
+  [src]="images[selectedIndex]" 
+  class="main-image absolute transition duration-300 ease-in-out"
+  alt="Main image"
+/>
+
+  </div>
+  <div class="main-iterating bg-[#f4f7fa] w-[90%] h-[160px] py-2 px-4 gap-3 flex items-center justify-center overflow-x-scroll" #scrollContainer [ngClass]="{ 'justify-start': isOverflowing, 'justify-center': !isOverflowing }">
+    <div class="single-one min-w-[140px] w-[140px] bg-[pink] h-[90%] overflow-hidden rounded-lg flex justify-center items-center" *ngFor="let image of images, let index = index" (click)="selectImage(index)" [ngClass]="{'scale-150': selectedIndex === index}">
+      <img src="{{image}}" alt="" class="w-[100%] h-[100%]">
+    </div>
+  </div>
+</div>
+
+

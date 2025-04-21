@@ -1,0 +1,28 @@
+<div class="w-full bg-[#f4f7fa98]">
+    <div class="w-full flex justify-center items-center flex-col p-16">
+        <h2 class="text-[red] text-[16px] font-[500] m-2">Our Service</h2>
+        <h1 class="h1">We provide great services four our</h1>
+        <h1 class="h1">costomers based on needs </h1>
+    </div>
+    <div class="mt-5 flex justify-center gap-[40px] flex-wrap px-5 my-10">
+        <div (click)="gotToService(service?.serviceName)" class="services cursor-pointer w-[280px] h-[380px] rounded-lg bg-[#68d585] flex flex-col justify-evenly items-center p-[10px]"  *ngFor="let service of services"  [ngStyle]="{ 'background-color': service.colorCode }">
+            <img [src]="service?.img" alt="" class="w-[40%] rounded overflow-hidden h-[100px]">
+            <h1>{{service?.serviceName}}</h1>
+            <p>{{service?.description}}</p>
+            <button class="flex justify-center items-center gap-2">Learn More <img src="/assets/images/icons8-arrow-30.png" alt="" class=" arraow w-[20px]"></button>
+        </div>
+    </div>
+    <div class="w-full flex gap-2 p-3 overflow-x-scroll">
+        <div class=" min-w-[300px] flex flex-col gap-3 justify-center items-center p-3 rounded-2xl shadow-md" *ngFor="let item of reviews">
+            <div class="image">
+                <img src="/assets/images/user.png" alt="" class="!w-[40px] ">
+            </div>
+            <div class="second flex flex-col justify-between items-center">
+                <h1 class="flex"> <img *ngFor="let star of [].constructor(item?.starCount)" src="/assets/figma/star copy 4.png" alt="star" /></h1>
+                <h1 class="font-[500] italic">{{ item?.review }}</h1>
+                <h1 class="font-[700]">{{item?.name}}</h1>
+                <h1>{{item?.place}}</h1>
+            </div>
+        </div>
+    </div>  
+</div>

@@ -1,0 +1,44 @@
+@media(max-width:700px){
+    .main-head{
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .main{
+        flex-direction: column;
+        gap: 20px;
+    }
+  
+
+    .main div{
+        width: 100%;
+        text-align: center;
+    }
+    .btn{
+        justify-content: center;
+    }
+    .btn div{
+        width: 250px;
+    }
+}
+
+.head{
+    margin-top: 14px;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+ul li{
+    font-weight: 300;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+@media(max-width:500px){
+  .mds{
+        flex-direction: column;
+    }
+    .dr-quotes{
+        width: 100%;
+    }
+}
+    

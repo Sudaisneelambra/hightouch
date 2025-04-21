@@ -1,0 +1,100 @@
+.main h4{
+    color: red;
+    margin: 23px;
+    font-size: 14px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px 40px 0px;
+}
+
+.main h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+.first-image{
+    background-image: url('/assets/figma/business-contact-86.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.second-image{
+    background-image: url('/assets/figma/ic_layers_48px.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.third-image{
+    background-image: url('/assets/figma/chat-33.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fourth-image{
+    background-image: url('/assets/figma/Path.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.h1{
+    font-size: 21px;
+    font-weight: 800;
+    margin: 0px 10px 10px 10px;
+}
+.p{
+    margin: 10px;
+    font-weight: 200;
+}
+
+.quates div button{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 12px;
+    font-size: 17px;
+    color: white;
+}
+
+@media(max-width:600px){
+    .main h1{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .content{
+        width: 80%;
+    }
+    .content div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .text{
+        text-align: center;
+    }
+}
+
+@media(max-width:800px){
+    .quates{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .quates div{
+        width:100%;
+        text-align: center;
+    }
+
+    .button{
+        justify-content: center;
+    }
+
+    .quates div p{
+        width: 100%;
+    }
+}

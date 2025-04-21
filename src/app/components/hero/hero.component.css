@@ -1,0 +1,60 @@
+.hero-parts div p{
+    margin: 6px;
+    color: red;
+    font-size: 13px;
+}
+
+.hero-parts div h1{
+    margin: 6px;
+    font-size: 39px;
+    font-weight: 900;
+}
+
+.para{
+    padding: 6px !important;
+    font-size: 14px !important;
+    font-weight: 200 !important;
+    color: #000 !important;
+}
+
+.hero-parts div button{
+    background-color: #473bf0;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    color: white;
+    font-weight: 600;
+    margin: 6px;
+}
+
+.big-shape{
+    width: 90px;
+    left: -4px;
+    top: 51%;
+    transform: rotate(-10deg);
+}
+
+.hero{
+    background-color: #f4f7fa;
+}
+.image-aluminium{
+    background-image: url('/assets/images/home-design.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+@media(max-width:700px){
+    .hero-parts{
+        width: 100%;
+    }
+    .hero{
+        flex-direction: column;
+    }
+
+    .inner{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}

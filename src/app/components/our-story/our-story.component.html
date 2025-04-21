@@ -1,0 +1,38 @@
+<div #ourStorySection class="w-full flex justify-center items-center flex-col my-11">
+    <div class="w-[80%] mt-[70px] main">
+        <p class="uppercase text-[red] text-[15px]">Our Stylish Works</p>
+        <h1 class="head w-[50%] h-[150px] sm:text-[28px] text-[22px] font-[800]" [innerHTML]="displayedText"></h1>
+    </div>
+    <div class="w-[80%] flex main-one">
+        <div class="w-[40%] flex justify-center items-center sm:py-36 py-20">
+            <img src="\assets\images\stylishRoom.jpeg" alt="" class="w-[75%] imgbig md:rounded-[0px] rounded-[30px]" [ngClass]="{'imgbigs':boolean}">
+        </div>
+        <div class="w-[60%]">
+            <div class="w-[100%] flex gap-2">
+                <div class="img1 sm:w-[60%] flex justify-center items-center">
+                    <img src="\assets\images\stylishseeling.jpeg" alt="" class="sm:w-[70%]">
+                </div>
+                <div class="img2 w-[40%]  flex justify-center items-center relative">
+                    <img src="\assets\images\stylishwashbasin.jpeg" alt="" class="laby absolute top-[35%] rounded sm:!h-[200px] h-[130px]">
+                </div>
+            </div>
+            <div class="q1 p-[70px] flex justify-center mt-[80px]">
+                <h1 class="h1 font-[200] w-[90%]">High Touch Aluminium Fabrication delivers stylish, custom interior solutions with expert craftsmanship. From showcases and cupboards to ceilings and partitions, we bring modern design to life in every space.</h1>
+            </div>
+        </div>
+    </div>
+    <div #customerStatsSection  class="w-[80%] flex gap-2 flex-wrap justify-evenly bottom mt-10 mb-20">
+        <div class="w-[300px]">
+            <h1>{{ percentage==98 ? '100+ costomers': percentage }}</h1>
+            <p>We have served over 100+ satisfied customers.</p>
+        </div>
+        <div class="w-[300px]">
+            <h1>{{ percentage }}%</h1>
+            <p>Satisfaction rate comes from our awesome customers.</p>
+        </div>
+        <div class="w-[300px]">
+            <h1>4.9/5.0</h1>
+            <p>Average customer ratings we have got all over Work.</p>
+        </div>
+    </div>
+</div>

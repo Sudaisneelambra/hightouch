@@ -1,0 +1,30 @@
+@media(max-width:800px){
+    .main{
+        flex-direction: column;
+    }
+    .main div{
+        width: 100%;
+        align-items: center;
+        
+    }
+    .text{
+        width: 80% !important;
+        padding-left: 0px;
+    }
+}
+
+.arraow{
+    animation: moving 1.3s infinite;
+}
+
+@keyframes moving{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}

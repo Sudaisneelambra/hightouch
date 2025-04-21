@@ -1,0 +1,38 @@
+<!-- not-found.component.html -->
+<div class="flex items-center justify-center min-h-screen bg-gray-100">
+    <div class="text-center px-4 lg:px-40 py-10  rounded-lg ">
+      <!-- 404 Error Image/Icon -->
+      <div class="mb-8">
+        <svg class="w-32 h-32 mx-auto text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+        </svg>
+      </div>
+  
+      <!-- Error Message -->
+      <h1 class="text-6xl font-bold text-gray-800 mb-4">404</h1>
+      <h2 class="text-2xl font-semibold text-gray-600 mb-6">Page Not Found</h2>
+      <p class="text-gray-500 mb-8 max-w-md mx-auto">
+        The page you're looking for doesn't exist or has been moved.
+      </p>
+  
+      <!-- Buttons -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <button 
+          (click)="goBack()" 
+          class="px-6 py-3 bg-gray-200 hover:bg-gray-300 text-gray-700 font-medium rounded-lg transition-colors duration-300 flex items-center "
+        >
+          <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+          </svg>
+          Go Back
+        </button>
+        
+        <a 
+          (click)="goHome()"
+          class="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors duration-300 cursor-pointer"
+        >
+          Go Home
+        </a>
+      </div>
+    </div>
+  </div>

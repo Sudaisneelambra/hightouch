@@ -1,0 +1,55 @@
+.h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.arraow{
+    animation: moving 1.3s infinite;
+}
+
+@keyframes moving{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+.services h1{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.services p{
+    text-align: center;
+    color: white;
+    font-weight: 200;
+}
+
+.services button{
+    color: white;
+    font-weight: 700;
+}
+
+@media(max-width:750px){
+    .main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .second{
+        align-items: center;
+        gap: 5px;
+    }
+}
+
+@media(max-width:400px){
+    .services{
+        width: 80% !important;
+    }
+}
