@@ -35,9 +35,9 @@ export class ProductComponent {
             this.images = curtain;
             this.productName = 'Curtains';
             break;
-        case 'bed room':
+        case 'bedroom':
             this.images = room;
-            this.productName = 'Room';
+            this.productName = 'Bed Room';
             break;
         case 'showcase':
             this.images = showcase;
