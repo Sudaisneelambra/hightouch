@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { ExtraOptions, RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { ProductComponent } from './pages/singleProducts/product.component';
 import { Notfound } from './pages/notFount/notfound.component';
@@ -23,8 +23,13 @@ const routes: Routes = [
  
 ];
 
+const routerOptions: ExtraOptions = {
+  scrollPositionRestoration: 'enabled', // 👈 this tells Angular to remember scroll position
+  anchorScrolling: 'enabled'            // optional: for #fragment scrolling
+};
+
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes,routerOptions)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
