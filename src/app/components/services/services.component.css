@@ -53,3 +53,24 @@
         width: 80% !important;
     }
 }
+
+.services-scroll {
+    display: flex;
+    gap: 40px;
+    overflow-x: auto;
+    padding: 10px 20px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .services-scroll::-webkit-scrollbar {
+    display: none; /* Optional: hides scrollbar */
+  }
+  
+  .services {
+    min-width: 280px;
+    max-width: 280px;
+    height: 380px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+  }

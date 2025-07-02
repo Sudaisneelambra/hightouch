@@ -3,6 +3,7 @@ import { ExtraOptions, RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { ProductComponent } from './pages/singleProducts/product.component';
 import { Notfound } from './pages/notFount/notfound.component';
+import { SingleProductComponent } from './pages/single-product/single-product.component';
 
 const routes: Routes = [
   {
@@ -16,7 +17,7 @@ const routes: Routes = [
   },
   {
     path:'products/:name',
-    component:ProductComponent
+    component:SingleProductComponent
   },
   { path: '404', component: Notfound },
   { path: '**', redirectTo: '/404' },

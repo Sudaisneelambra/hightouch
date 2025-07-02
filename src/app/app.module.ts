@@ -17,13 +17,15 @@ import { ContactComponent } from './components/contact/contact.component';
 import { Notfound } from './pages/notFount/notfound.component';
 import { RouterModule } from '@angular/router';
 import { ProductComponent } from './pages/singleProducts/product.component';
+import { SingleProductComponent } from './pages/single-product/single-product.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     Notfound,
-    ProductComponent
+    ProductComponent,
+    SingleProductComponent
   ],
   imports: [
     BrowserModule,

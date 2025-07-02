@@ -1,6 +1,6 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { kitchen,curtain,room,showcase,washbasin,tvunit,windows} from '../../datas/data';    
+import { kitchen,curtain,room,walldrops,washbasin,tvunit,windows,bedroom} from '../../datas/data';    
 import { ChangeDetectorRef } from '@angular/core';
 
 @Component({
@@ -35,13 +35,13 @@ export class ProductComponent {
             this.images = curtain;
             this.productName = 'Curtains';
             break;
-        case 'bedroom':
+        case 'room':
             this.images = room;
             this.productName = 'Bed Room';
             break;
         case 'showcase':
-            this.images = showcase;
-            this.productName = 'Show Case';
+            this.images = walldrops;
+            this.productName = 'Wall Drops';
             break;
         case 'washbasin':
             this.images = washbasin;
@@ -54,6 +54,10 @@ export class ProductComponent {
         case 'windows':
             this.images = windows;
             this.productName = 'Windows';
+            break;
+        case 'bedroom':
+            this.images = bedroom;
+            this.productName = 'Bed Room';
             break;
         default:
           this.images = [];

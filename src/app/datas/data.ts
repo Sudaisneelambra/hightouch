@@ -19,37 +19,7 @@ export const kitchen = [
     },
     {
       url: '/assets/images/kitchen/kitchen7.jpeg',
-    },
-    {
-      url: '/assets/images/kitchen/kitchen8.jpeg',
-    },
-    {
-      url: '/assets/images/kitchen/kitchen9.jpeg',
-    },
-    {
-      url: '/assets/images/kitchen/kitchen10.jpeg',
-    },
-    {
-      url: '/assets/images/kitchen/kitchen11.jpeg',
-    },
-    {
-      url: '/assets/images/kitchen/kitchen12.jpeg',
-    },
-    {
-      url: '/assets/images/kitchen/kitchen13.jpeg',
-    },
-    {
-      url: '/assets/images/kitchen/kitchen14.jpeg',
-    },
-    {
-      url: '/assets/images/kitchen/kitchen15.jpeg',
-    },
-    {
-      url: '/assets/images/kitchen/kitchen16.jpeg',
-    },
-    {
-      url: '/assets/images/kitchen/kitchen17.jpeg',
-    },
+    }
   ];
 
   export const curtain = [
@@ -103,28 +73,7 @@ export const kitchen = [
     },
     {
       url: '/assets/images/curtains/curtain17.jpeg',
-    },
-    {
-      url: '/assets/images/curtains/curtain18.jpeg',
-    },
-    {
-      url: '/assets/images/curtains/curtain19.jpeg',
-    },
-    {
-      url: '/assets/images/curtains/curtain20.jpeg',
-    },
-    {
-      url: '/assets/images/curtains/curtain21.jpeg',
-    },
-    {
-      url: '/assets/images/curtains/curtain22.jpeg',
-    },
-    {
-      url: '/assets/images/curtains/curtain23.jpeg',
-    },
-    {
-      url: '/assets/images/curtains/curtain24.jpeg',
-    },
+    }
   ];
 
 
@@ -233,30 +182,36 @@ export const kitchen = [
     },
   ];
 
-  export const showcase = [
+  export const walldrops = [
     {
-      url: '/assets/images/showcase/livingroomshowcase1.jpeg',
+      url: '/assets/images/walldrops/walldrops1.jpeg',
     },
     {
-      url: '/assets/images/showcase/livingroomshowcase2.jpeg',
+      url: '/assets/images/walldrops/walldrops2.jpeg',
     },
     {
-      url: '/assets/images/showcase/livingroomshowcase3.jpeg',
+      url: '/assets/images/walldrops/walldrops3.jpeg',
     },
     {
-      url: '/assets/images/showcase/livingroomshowcase4.jpeg',
+      url: '/assets/images/walldrops/walldrops4.jpeg',
     },
     {
-      url: '/assets/images/showcase/livingroomshowcase5.jpeg',
+      url: '/assets/images/walldrops/walldrops5.jpeg',
     },
     {
-      url: '/assets/images/showcase/livingroomshowcase6.jpeg',
+      url: '/assets/images/walldrops/walldrops6.jpeg',
     },
     {
-      url: '/assets/images/showcase/livingroomshowcase7.jpeg',
+      url: '/assets/images/walldrops/walldrops7.jpeg',
     },
     {
-      url: '/assets/images/showcase/livingroomshowcase8.jpeg',
+      url: '/assets/images/walldrops/walldrops8.jpeg',
+    },
+    {
+      url: '/assets/images/walldrops/walldrops9.jpeg',
+    },
+    {
+      url: '/assets/images/walldrops/walldrops10.jpeg',
     },
   ];
 
@@ -279,9 +234,6 @@ export const kitchen = [
     {
       url: '/assets/images/tvunits/tvunit6.jpeg',
     },
-    {
-      url: '/assets/images/tvunits/tvunit7.jpeg',
-    },
   ];
 
   export const washbasin = [
@@ -297,36 +249,6 @@ export const kitchen = [
     {
       url: '/assets/images/washbasin/washbasin4.jpeg',
     },
-    {
-      url: '/assets/images/washbasin/washbasin5.jpeg',
-    },
-    {
-      url: '/assets/images/washbasin/washbasin6.jpeg',
-    },
-    {
-      url: '/assets/images/washbasin/washbasin7.jpeg',
-    },
-    {
-      url: '/assets/images/washbasin/washbasin8.jpeg',
-    },
-    {
-      url: '/assets/images/washbasin/washbasin9.jpeg',
-    },
-    {
-      url: '/assets/images/washbasin/washbasin10.jpeg',
-    },
-    {
-      url: '/assets/images/washbasin/washbasin11.jpeg',
-    },
-    {
-      url: '/assets/images/washbasin/washbasin12.jpeg',
-    },
-    {
-      url: '/assets/images/washbasin/washbasin13.jpeg',
-    },
-    {
-      url: '/assets/images/washbasin/washbasin14.jpeg',
-    }
   ];
 
   export const windows = [
@@ -365,50 +287,136 @@ export const kitchen = [
     },
     {
       url: '/assets/images/windows/window12.jpeg',
+    }
+  ];
+
+  export const frpdoors = [
+    {
+      url: '/assets/images/frpdoors/frpdoors1.jpeg',
     },
     {
-      url: '/assets/images/windows/window13.jpeg',
+      url: '/assets/images/frpdoors/frpdoors2.jpeg',
     },
     {
-      url: '/assets/images/windows/window14.jpeg',
+      url: '/assets/images/frpdoors/frpdoors3.jpeg',
     },
     {
-      url: '/assets/images/windows/window15.jpeg',
+      url: '/assets/images/frpdoors/frpdoors4.jpeg',
+    },
+  ];
+
+  export const ceilinggypsum = [
+    {
+      url: '/assets/images/ceilinggypsum/ceilinggypsum1.jpeg',
     },
     {
-      url: '/assets/images/windows/window16.jpeg',
+      url: '/assets/images/ceilinggypsum/ceilinggypsum2.jpeg',
     },
     {
-      url: '/assets/images/windows/window17.jpeg',
+      url: '/assets/images/ceilinggypsum/ceilinggypsum3.jpeg',
     },
     {
-      url: '/assets/images/windows/window18.jpeg',
+      url: '/assets/images/ceilinggypsum/ceilinggypsum4.jpeg',
     },
     {
-      url: '/assets/images/windows/window19.jpeg',
+      url: '/assets/images/ceilinggypsum/ceilinggypsum5.jpeg',
     },
     {
-      url: '/assets/images/windows/window20.jpeg',
+      url: '/assets/images/ceilinggypsum/ceilinggypsum6.jpeg',
     },
     {
-      url: '/assets/images/windows/window21.jpeg',
+      url: '/assets/images/ceilinggypsum/ceilinggypsum7.jpeg',
     },
     {
-      url: '/assets/images/windows/window22.jpeg',
+      url: '/assets/images/ceilinggypsum/ceilinggypsum8.jpeg',
     },
     {
-      url: '/assets/images/windows/window23.jpeg',
+      url: '/assets/images/ceilinggypsum/ceilinggypsum9.jpeg',
+    },
+
+  ];
+
+
+  export const cupboards = [
+    {
+      url: '/assets/images/cupboards/cupboard1.jpeg',
     },
     {
-      url: '/assets/images/windows/window24.jpeg',
+      url: '/assets/images/cupboards/cupboard2.jpeg',
     },
     {
-      url: '/assets/images/windows/window25.jpeg',
+      url: '/assets/images/cupboards/cupboard3.jpeg',
     },
     {
-      url: '/assets/images/windows/window26.jpeg',
+      url: '/assets/images/cupboards/cupboard4.jpeg',
     },
     {
-      url: '/assets/images/windows/window27.jpeg',
+      url: '/assets/images/cupboards/cupboard5.jpeg',
+    },
+    {
+      url: '/assets/images/cupboards/cupboard6.jpeg',
+    },
+    {
+      url: '/assets/images/cupboards/cupboard7.jpeg',
+    },
+
+  ];
+
+
+  export const partition = [
+    {
+      url: '/assets/images/partition/partition1.jpeg',
+    },
+    {
+      url: '/assets/images/partition/partition2.jpeg',
+    },
+    {
+      url: '/assets/images/partition/partition3.jpeg',
+    },
+    {
+      url: '/assets/images/partition/partition4.jpeg',
+    },
+    {
+      url: '/assets/images/partition/partition5.jpeg',
+    },
+    {
+      url: '/assets/images/partition/partition6.jpeg',
+    }
+
+  ];
+
+  export const bedroom = [
+    {
+      url: '/assets/images/bedroom/bedroom1.jpeg',
+    },
+    {
+      url: '/assets/images/bedroom/bedroom2.jpeg',
+    },
+    {
+      url: '/assets/images/bedroom/bedroom3.jpeg',
+    },
+    {
+      url: '/assets/images/bedroom/bedroom4.jpeg',
+    },
+    {
+      url: '/assets/images/bedroom/bedroom5.jpeg',
+    },
+    {
+      url: '/assets/images/bedroom/bedroom6.jpeg',
+    },
+    {
+      url: '/assets/images/bedroom/bedroom7.jpeg',
+    },
+    {
+      url: '/assets/images/bedroom/bedroom8.jpeg',
+    },
+    {
+      url: '/assets/images/bedroom/bedroom9.jpeg',
+    },
+    {
+      url: '/assets/images/bedroom/bedroom10.jpeg',
+    },
+    {
+      url: '/assets/images/bedroom/bedroom11.jpeg',
     },
   ];
